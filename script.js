@@ -1,5 +1,3 @@
-console.log('hi');
-
 let lucheight= 1.69;
 let lucweight=78;
 let petheight=1.95;
@@ -26,8 +24,6 @@ if (lucasBmi > peterBmi){
 }
 
 // Custom BMI
-
-console.log('hi');
 
 let hInput= document.querySelector('.hInput');
 let wInput= document.querySelector('.wInput');
