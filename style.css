@@ -1,0 +1,33 @@
+body {
+    background-color: lightblue;
+
+}
+
+.main {
+    width:60%;
+    margin:auto;
+    margin-top: 8%;
+    background-color: rgb(255, 153, 0);
+    text-align: center;
+    border-radius: 20px;
+    border: 3px dotted blue;
+    color:wheat;
+    text-shadow: 1.3px 1.3px black;
+    font-family: 'Calibri', sans-serif;
+    padding:1%;
+    font-size:22px;
+}
+
+
+input {
+    border-radius: 20px;
+    padding: 1%;
+    font-family: 'Calibri', sans-serif;
+    text-align: center;
+}
+
+button {
+    font-family: 'Calibri', sans-serif;
+    padding:.5%;
+
+}
