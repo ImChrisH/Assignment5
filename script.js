@@ -74,11 +74,15 @@ let ConvertCelsiusToFahrenheit = (cel2) => {
     console.log(`${cel2}°C is ${fah2}°F`)
 
 };
-ConvertCelsiusToFahrenheit(50)
+ConvertCelsiusToFahrenheit(100)
+ConvertCelsiusToFahrenheit(0)
+ConvertCelsiusToFahrenheit(10)
 
 let ConvertFahrenheitToCelsius = (fah3) => {
     let cel3= (fah3-32)*(5/9)
     cel3 = cel3.toFixed(1);
     console.log(`${fah3}°F is ${cel3}°C`)
 }
-ConvertFahrenheitToCelsius(99)
+ConvertFahrenheitToCelsius(32)
+ConvertFahrenheitToCelsius(10)
+ConvertFahrenheitToCelsius(102)
